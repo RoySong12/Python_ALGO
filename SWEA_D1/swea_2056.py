@@ -12,7 +12,7 @@ for i in range(1, T+1):
     m = int(month)
     d = int(date)
 
-    if 1 <= m <= 12 amd 1<= days_in_month[m]:
+    if 1 <= m <= 12 and 1<= d <= days_in_month[m]:
          print(f"#{i} {year}/{month}/{date}")
 
     else:
