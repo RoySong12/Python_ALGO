@@ -4,11 +4,7 @@ for i in range(1, T+1):
     str1 = input()
     str2 = input()
 
-
     counts={}
-
-
-
 
     for ch in str2: # 긴 문자열에서 문자를 하나씩 꺼내서
         if ch in counts:
@@ -27,9 +23,23 @@ for i in range(1, T+1):
     print(f"#{i} {max_val}")
 
 
-
-
-
-
     input().strip() # 혹시나 문자열 양 옆에 공백이 있으면 공백 제거
 
+
+'''8/6
+T = int(input())
+
+for tc in range(1, T+1):
+    str1 = input()
+    str2 = input()
+
+    max_num = 0
+
+    for i in str1:
+        count = str2.count(i)
+        if count > max_num:
+                max_num = count
+                
+    print(f"#{tc} {max_num}")
+'''
+    
