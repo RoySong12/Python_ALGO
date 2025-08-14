@@ -43,3 +43,27 @@ for i in range(1, T+1):
         result = max_value - min_value
     print(f"#{i} {result}")
 
+
+
+
+'''8/14
+T = int(input())
+
+for tc in range(1, T+1):
+    N, M = map(int, input().split())
+    line = list(map(int, input().split()))
+
+    max_sum = 0
+    min_sum = 1000000000000
+
+    for i in range(N-M+1):   #range()끝부분은 포함 안되는 거 꼭 신경 쓰기!!!
+        count = line[i:i+M]
+        result = sum(count)
+        if max_sum < result:
+            max_sum = result
+        if min_sum > result:
+            min_sum = result
+        final = max_sum - min_sum
+
+    print(f"#{tc} {final}")
+'''

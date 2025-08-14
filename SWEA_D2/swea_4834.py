@@ -1,0 +1,5 @@
+T = int(input())
+N = int(input())
+ls = list(input().strip())
+print(ls)
+print(chr(ls))

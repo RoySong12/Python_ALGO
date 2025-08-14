@@ -13,3 +13,6 @@ for i in range(1,N+1):
 #     line = [' '] * N
 #     line[N-i:] = ['*'] * i
 #     print(''.join(line))
+
+
+

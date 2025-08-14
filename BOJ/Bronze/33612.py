@@ -13,3 +13,27 @@
 #     month = m % 12
 
 # print(year, month)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N = int(input())
+
+year, month = 2024, 8
+
+pigel = (N-1) * 7
+m = month + pigel
+
+
+if month + pigel > 12:

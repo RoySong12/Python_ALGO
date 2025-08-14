@@ -12,4 +12,4 @@ for i in str:
 
 print(''.join(result))
 
-print(*result, sep='')
+print(*result, sep='') # end 는 무조건 끝에만!
