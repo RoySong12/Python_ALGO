@@ -27,7 +27,6 @@
 
 
 
-
 N = int(input())
 
 year, month = 2024, 8
