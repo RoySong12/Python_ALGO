@@ -1,16 +1,16 @@
 N = int(input())
-price = int(input())
+P = int(input())
 
+ans = [P]
 
-
-# ans = P
-
-if 5 <= N < 10:
-    print(price - 500)
-elif 10 <= N < 15:
-    print(price * 0.9 )
-elif 15 <= N < 20:
-    print(price - 2000)
-elif 20 <= N:
-    print(price * 0.75)
+if N >= 5:
+    ans.append(P - 500)
+if N >= 10: 
+    ans.append(int(P * 0.9))
+if N >= 15:
+    ans.append(P - 2000)
+if N >= 20:
+    ans.append(int(P * 0.75))
     
+
+print(max(min(ans),0))
